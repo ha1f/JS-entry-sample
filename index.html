@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Sample</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <h2 class="midasi title">JSを書いてみよう</h2>
+    <div id="mae" class="content">まえ</div>
+    <script>
+        document.title = "あいうえお"
+        document.body.innerHTML = document.body.innerHTML + "<h4>HTMLを追加</h4>";
+
+        var element = document.createElement("div");
+        element.class = "content";
+        element.innerHTML = "表示テスト";
+        document.body.appendChild(element);
+
+        function handleClick() {
+            document.body.style.backgroundColor = "#f00";
+            document.getElementById("mae").innerHTML = "俺様が乗っ取った！！！";
+        }
+    </script>
+    <input class="myButton" type="button" onClick="handleClick();" value="おして。"/>
+    <div id="ushiro" class="content">うしろ</div>
+</body>
+</html>

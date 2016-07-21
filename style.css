@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(250, 247, 206);
+}
+.title {
+    color: #333;
+}
+.content {
+    color: #59b1eb;
+}
+.midasi {
+    text-align: center;
+}
+.myButton {
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 54px;
+    text-align: center;
+    outline: none;
+    display: inline-block;
+}
+.myButton:hover {
+    background-color: #fff;
+    border-color: #59b1eb;
+    color: #59b1eb;
+}
+#mae {
+    text-align: center;
+}
+#ushiro {
+    text-align: center;
+}
